@@ -71,3 +71,6 @@ The principles of architectural seeding extend far beyond the techniques impleme
     *   Add the necessary modules (e.g., `nn.GRU`, vector quantizer) to your model's `__init__` method.
     *   Integrate the module into the `forward` pass at the appropriate location.
 4.  **Adapt the Training Loop:** If the technique requires an auxiliary loss (like the Confidence Circuit), modify your training step to calculate and combine the losses.
+
+
+## These are just a few examples. I encourage you to find and cultivate your own seeds! Good luck!
